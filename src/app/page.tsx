@@ -193,9 +193,9 @@ export default function Home() {
       
       <Navbar />
     </section>
-    <section id="initial">
+    <section id="initial h-fit">
       <div className="flex flex-col bg-red min-w-screen min-h-screen items-center justify-center">
-      <TypewriterEffectSmooth words={words} />
+      <TypewriterEffectSmooth words={words} className="md:text-2x" />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
       <button
                 className="relative inline-block p-px font-semibold leading-6 text-white no-underline bg-gray-800 shadow-2xl cursor-pointer group rounded-xl shadow-zinc-900"><span
@@ -222,7 +222,7 @@ export default function Home() {
       </div>
       
     </section>
-    <section id="services" className="h-screen">
+    <section id="services" className="h-fit">
     <div className="mb-[100px] text-transparent"><h1>o</h1></div>
     
     <div className="mt-[20px] max-w-5xl mx-auto px-8">
